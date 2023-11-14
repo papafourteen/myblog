@@ -1,0 +1,33 @@
+.textEditor{
+    max-width: 700px;
+    margin:0 auto;
+    
+}
+.menuBar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px gray;
+}
+.menuBar button{
+    margin: 5px;
+    outline: none;
+    border: none;
+
+}
+button.is_active{
+    color:blue;
+}
+.ProseMirror{
+    padding:10px;
+    background-color: antiquewhite;
+    min-height: 200px;
+}
+.ProseMirror:focus{
+    border:none;
+    outline:1px solid blue;
+}
+p{
+    margin-bottom: 0!important;
+}
